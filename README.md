@@ -1,15 +1,13 @@
 # fuck-kotlin
-Brainfuck compiler in Kotlin
+Brainfuck interpreter in Kotlin
 
-# How to compile the compiler
+# How to compile the interpreter
 
     kotlinc src/fuck.kt -d fuck.jar
 
 # How to run
 
-To compile 
-
-The compiler accepts either a complete program
+The interpreter accepts either a complete program
 
     kotlin -classpath out/fuck.jar FuckKt ">++++[-<+>]"
 
